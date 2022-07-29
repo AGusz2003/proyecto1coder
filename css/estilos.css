@@ -114,6 +114,7 @@ align-self: center;}
 
 .img { grid-area: img; 
   justify-self: end;
+  align-self: center;
 }
 
 .a2 {  display: grid;
@@ -171,7 +172,9 @@ padding: 1rem;
   justify-self: end;
   align-self: center;}
 s
-
+.cartas-equipos {
+  align-self:center
+}
 
 
 
