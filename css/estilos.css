@@ -191,6 +191,7 @@ s
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 7px;
+    align-items: center;
 }
 
 h2{
