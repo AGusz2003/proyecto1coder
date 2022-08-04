@@ -7,6 +7,16 @@ header{
   align-items: center;
   padding: 10px;
 }
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  border-radius: 20px;
+  background-color: #000000;
+
+}
 
 .logo{
     display: flex;
