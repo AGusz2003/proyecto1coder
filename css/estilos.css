@@ -70,7 +70,7 @@ body{
 
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #eb0022, #eb0022, #eb0022, #eb0022, #eb0022, #d80027, #c5002a, #b1002c, #840c2b, #591124, #2f1018, #000000);
+  background-image: linear-gradient(to  bottom, #eb0022, #eb0022, #eb0022, #eb0022, #eb0022, #d80027, #c5002a, #b1002c, #840c2b, #591124, #2f1018, #000000);
   margin: 0%;
   font-family: monospace;
   
@@ -184,10 +184,8 @@ padding: 1rem;
 .img3 { grid-area: img3; 
   justify-self: end;
   align-self: center;}
-s
-.cartas-equipos {
-  align-self:center
-}
+
+
 
 
 
