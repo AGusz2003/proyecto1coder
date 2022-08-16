@@ -1,3 +1,4 @@
+/* cards actualidad */
 nav li {
   font-weight: 800;
   padding-right: 10px;
@@ -96,123 +97,40 @@ body {
   margin: 1rem;
 }
 
-.articles {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0.5em 0px;
-  grid-auto-flow: row;
-  justify-items: center;
-  align-items: stretch;
-  grid-template-areas: "a1 a1 a1" "a2 a2 a2" "a3 a3 a3";
-  grid-area: articles;
-}
 
-.a1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "text text img" "text text img" "text text img";
-  grid-area: a1;
-  width: 90%;
-  border: 15px solid #000000;
-  padding: 1rem;
-}
 
-.text {
-  grid-area: text;
-  align-self: center;
-}
-
-.text h3 {
-  font-size: xx-large;
-  padding-bottom: 2rem;
-}
-
-.text p {
-  font-size: x-large;
-}
-
-.img {
-  grid-area: img;
-  justify-self: end;
-  align-self: center;
-}
-
-.a2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "text2 text2 img2" "text2 text2 img2" "text2 text2 img2";
-  grid-area: a2;
-  width: 90%;
-  border: 15px solid #000000;
-  padding: 1rem;
-}
-
-.text2 {
-  grid-area: text2;
-  align-self: center;
-}
-
-.text2 h3 {
-  font-size: xx-large;
-}
-
-.text2 p {
-  font-size: x-large;
-}
-
-.img2 {
-  grid-area: img2;
-  justify-self: end;
-  align-self: center;
-}
-
-.a3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "text3 text3 img3" "text3 text3 img3" "text3 text3 img3";
-  grid-area: a3;
-  width: 90%;
-  border: 15px solid #000000;
-  padding: 1rem;
-}
-
-.text3 {
-  grid-area: text3;
-  align-self: center;
-}
-
-.text3 h3 {
-  font-size: xx-large;
-}
-
-.text3 p {
-  font-size: x-large;
-}
-
-.img3 {
-  grid-area: img3;
-  justify-self: end;
-  align-self: center;
-}
 
 .ConferenciaO {
-  color: white;
-  background-color: #000000;
+  color: black;
+  
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
 }
 
+.contenedorequipo{
+  display: flex;
+ flex-wrap: wrap;
+ gap: 35px;
+ margin-top: 2re;
+}
+
+.cartas-equipos{
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  
+}
+
+.card{
+  box-shadow: 3px 3px 5px black;
+}
 .ConferenciaE {
-  color: white;
-  background-color: #000000;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
 }
 
 /* contacto*/
