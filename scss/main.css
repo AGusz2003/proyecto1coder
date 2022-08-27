@@ -1,4 +1,4 @@
-
+/* header */
 nav li {
   font-weight: 800;
   padding-right: 10px;
@@ -154,22 +154,15 @@ body{
 
 
 
-
-
-
-
-
-
-
-
+/* cartas de equipos */
 
 .ConferenciaO {
   color: black;
-  
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
-}
+  }
 
 .contenedorequipo{
   display: flex;
@@ -181,22 +174,46 @@ body{
 .cartas-equipos{
   display:flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  
   
 }
 
 .card{
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 6px 6px 10px black;
 }
 .ConferenciaE {
   color: black;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
 }
 
-/* contacto*/
+/* cards premios */
+.premios2022{
+  color:whitesmoke;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #000000;
+ 
+}
+
+.contenedor-premios{
+  display: flex;
+ flex-wrap: wrap;
+ gap: 35px;
+ margin-top: 2re;
+ 
+}
+
+.card{
+  box-shadow: 3px 3px 5px black;
+}
+
+
+
+
+/* fotter*/
 form {
   width: 45%;
   margin: 50px;
