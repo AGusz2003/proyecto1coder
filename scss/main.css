@@ -145,9 +145,7 @@ body {
 }
 
 /* caarrusel */
-.carousel-inner{
- 
-}
+
 
 
 
@@ -262,6 +260,17 @@ textarea {
 #boton:hover {
   cursor: pointer;
 }
+
+
+/* VIDEO INDEX */
+.video-nba{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+
 
 footer {
   display: flex;
