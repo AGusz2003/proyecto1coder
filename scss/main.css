@@ -121,10 +121,10 @@ body {
 
 
 
-/* cartas de equipos */
+/* cartas de equipos mejores equipos */
 
 .ConferenciaO {
-  color: black;
+  color: #ffff;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -141,7 +141,7 @@ body {
 .cartas-equipos{
   display:flex;
   flex-direction: column;
-  background-color: white;
+  background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
   
 }
 
@@ -149,14 +149,18 @@ body {
   box-shadow: 6px 6px 10px black;
 }
 .ConferenciaE {
-  color: black;
+  color: #ffff;
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
 }
 
-/* cards premios */
+.card-body {
+  color: #000000;
+}
+
+/* cards premios mejores jugadores */
 .premios2022{
   display: flex;
   width: 100%;
@@ -165,11 +169,28 @@ body {
 .premios2022 h1{
   color:whitesmoke;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 40px;
   background-color: #000000;
-  width: 50%;
+  width: 40%;
+}
+.card-body{
+  text-align: center;
 }
 
+.top10-playoffs{
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.top10-playoffs h1{
+  color:whitesmoke;
+  text-align: center;
+  border-radius:40px;
+  background-color: #000000;
+  width: 40%;
+}
 .contenedor-premios{
   display: flex;
  flex-wrap: wrap;
@@ -240,7 +261,7 @@ textarea {
 main{
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #eb0022, #eb0022, #eb0022, #eb0022, #eb0022, #d80027, #c5002a, #b1002c, #840c2b, #591124, #2f1018, #000000);
+  background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
   margin: 0%;
   font-family: monospace;
   min-height: 100vh;
