@@ -9,6 +9,10 @@ body {
 }
 
 
+.navbar{
+  color: #ffff;
+}
+
 
 
 .navContainer{
@@ -198,6 +202,22 @@ body {
   text-align: center;
 }
 
+.lideres-estadisticas{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.lideres-estadisticas h1{
+  color:whitesmoke;
+  text-align: center;
+  border-radius:40px;
+  background-color: #000000;
+  width: 40%;
+}
+
+
+
+
 .top10-playoffs{
 
   display: flex;
@@ -308,7 +328,8 @@ footer {
 .redes ul li{
   list-style: none;
 }
-.derechos-reservados p {
+
+.texto-footer p{
   color: white;
 }
 
