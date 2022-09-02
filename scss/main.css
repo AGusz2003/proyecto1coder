@@ -4,18 +4,16 @@ body {
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
   margin: 0%;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   
 }
-
+/* -------------------------------------------------------------------------------------------------------------------------- */
 
 .navbar{
   color: #ffff;
   
 }
-
-
 
 .navContainer{
   justify-content: space-between;
@@ -32,16 +30,37 @@ body {
 
 .nav-item a{
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-item a:hover{
   color: red;
   text-decoration: none;
 }
 
+/* index */
+.frase-slogan{
+  margin-top: 10rem;
+  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-index p{
+color: #fff;
+margin-top: 15rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
 
 
 
-/* cards actualidad */
+
+
+/* cards actualidad --------------------------------------------------------------------------------*/
 
 .titulo-actualidad{
    text-align: center;
@@ -49,6 +68,7 @@ body {
    color: white;
    margin-top: 100px;
    font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
 
 }
 .conteiner-actualidad{
@@ -85,6 +105,7 @@ body {
 .conteiner-actualidad .card h4{
    font-weight: 600;
    color: black;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .conteiner-actualidad .card p{
    padding: 0 1rem;
@@ -98,7 +119,7 @@ body {
    color: white;
 }
 
-/* /actualidad */
+
 
 .carousel-item p{
   color: whitesmoke;
@@ -113,6 +134,7 @@ body {
   display: flex;
   justify-content: center; 
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .texto-carousel h2{
@@ -125,21 +147,22 @@ body {
   color:whitesmoke;
   text-align: center;
   border-radius: 25px;
-  background-color: #000000;
   width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagenes-semanales{
   display: flex;
   width: 100%;
-  justify-content: center; 
+  justify-content: center;
+  margin-top: 5rem; 
 }
 .titulo-actualidad h1{
   color:whitesmoke;
   text-align: center;
   border-radius: 25px;
-  background-color: #000000;
   width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-actualidad{
   display: flex;
@@ -159,6 +182,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
   }
 
 .contenedorequipo{
@@ -171,19 +195,19 @@ body {
 .cartas-equipos{
   display:flex;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
-  
 }
 
 .card{
   box-shadow: 6px 6px 10px black;
 }
+
 .ConferenciaE {
   color: #ffff;
   text-align: center;
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-body {
@@ -199,8 +223,6 @@ body {
 .premios2022 h1{
   color:whitesmoke;
   text-align: center;
-  border-radius: 40px;
-  background-color: #000000;
   width: 40%;
 }
 .contenedor-premios{
@@ -226,33 +248,43 @@ td a{
 
 
 .lideres-estadisticas{
-color:whitesmoke;
-text-align: center;
-border-radius: 40px;
-background-color: #000000;
-width: 40%;}
-
-.contenedor-jugadores-lideres {
-  display: flex;
-  color: #fff;
-
- 
-}
-
-
-
-.top10-playoffs{
-
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  color:white;
+}
+
+.contenedor-jugadores-lideres {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center; 
+}
+
+.contenedor-jugadores-lideres h4{
+  color: white;
+}
+
+.contenedor-jugadores-lideres p{
+  color: white;
+}
+
+
+.top10-playoffs{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
 }
 
 .top10-playoffs h1{
   color:whitesmoke;
   text-align: center;
-  border-radius:40px;
-  background-color: #000000;
   width: 40%;
 }
 
@@ -302,21 +334,17 @@ textarea {
 
 
 
-/* VIDEO INDEX */
-.video-nba{
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-  
 
-}
+
+
+
 /* main  */
 main{
   background-size: 100vw 100vh;
   background-attachment: fixed;
   background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
   margin: 0%;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   padding-bottom: 2rem;
 }
@@ -330,6 +358,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 15px;
+  
 }
 .redes ul{
   display: flex;
@@ -342,6 +371,7 @@ footer {
 
 .texto-footer p{
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 858px) {
