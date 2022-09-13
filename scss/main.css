@@ -351,7 +351,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .from-conctacto{
     width: 100%;
   }
@@ -360,8 +360,69 @@ footer {
   .top10-playoffs h1 {
     width: auto;
   }
+  .from-conctacto {
+    width: 100%;
+  }
+  .texto-carousel h4{
+    width: 100%;
+  }
+  .contenedor-actualidad .card{
+    margin: 0;
+    margin-bottom: 1rem;
+   min-height: 300px;
+ }
+ .contenedor-actualidad .card img{
+  width: 100%;
+ }
+ .ConferenciaE{
+justify-content: center;
+ }
+.contenedor-jugadores-lideres{
+  width: 100%;
+  margin: auto;
 }
-@media (max-width: 375px) {
+main{
+  margin: 0%;
+}
+.lideres-estadisticas{
+  padding: 1rem;
+  text-align: center;
+}
+.section-index{
+  flex-direction: column;
+}
+.contenedor-index{
+  width: 100%;
+  padding: 0;
+}
+.frase-slogan{
+  width: auto;
+  padding: 1rem;
+}
+.frase-slogan h1{
+  margin-bottom: 1rem;
+}
+.video{
+  height: 250px;
+}
+footer{
+  flex-direction: column;
+  justify-content: center;
+}
+ .texto-footer ul{
+  padding: 0%;
+}
+.contenedor-noticia{
+  padding: 0.5rem;
+  width: 100%;
+}
+.contenedor-noticia img{
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+}
+/* ------------------------------------------------------------ */
+@media (max-width: 400px) {
   .from-conctacto {
     width: 100%;
   }
