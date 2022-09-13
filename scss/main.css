@@ -9,7 +9,6 @@ body {
 main{
   background-size: 100vw 100vh;
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #1e1e1f, #1a1b35, #12174a, #06105e, #000070);
   margin: 0px 50px;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
@@ -47,7 +46,7 @@ main{
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background-color: #fff;
+  background-color: #ffff;
   padding: 2rem;
   text-align: center;
   border-radius: 15px;
@@ -106,7 +105,7 @@ padding: 2rem;
 
 .contenedor-actualidad .card{
    width: 330px;
-   height: 430px;
+   height: 400px;
    border-radius:  8px; 
    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
    overflow: hidden;
@@ -120,12 +119,10 @@ padding: 2rem;
 .contenedor-actualidad .card:hover{
    transform: translate(-15px);
    box-shadow: 0 12px 16px rgb(0, 0,0,0.2);
-   
 }
 .contenedor-actualidad .card img{
    width: 330px;
    height: 220px;
-
 }
 .contenedor-actualidad .card h4{
    font-weight: 600;
@@ -302,7 +299,7 @@ td a{
 }
 /* contacto-------------------------------------------------------------------------------------------------------*/
 .from-conctacto {
-  width: 90%;
+  width: 50%;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 15px 25px;
@@ -353,21 +350,19 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-@media (min-width: 1000px) {
-  form {
-    width: 55px;;
-  }
-}
+
 @media (max-width: 850px) {
-  form {
+  .from-conctacto{
     width: 100%;
   }
+  .video{
+    height: 200px;}
   .top10-playoffs h1 {
     width: auto;
   }
 }
 @media (max-width: 375px) {
-  form {
+  .from-conctacto {
     width: 100%;
   }
   .texto-carousel h4{
@@ -407,7 +402,7 @@ main{
   padding: 1rem;
 }
 .frase-slogan h1{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .video{
   height: 250px;
